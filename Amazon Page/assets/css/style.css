@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+
+.bg-dark {
+  color: #feaeded;
+  background-color: #222f3e;
+}
+
+.bg-yellow {
+  color: white;
+  background-color: #f56600;
+  text-align: center;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+}
+
+/* header section */
+
+header {
+  background-color: #222f3f;
+}
+
+header img {
+  width: 180px;
+  padding: 10px 30px;
+}
+
+nav {
+  background-color: #364759;
+  padding: 10px 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+/* main section */
+
+main {
+  padding: 2rem;
+  background-color: #e9edee;
+}
+
+.holiday-banner {
+  color: white;
+  padding: 5rem 0;
+  background-image: url("../images/bg-image.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 100%;
+}
+
+/* perfect-gift-section */
+
+.perfect-gift-section {
+  padding: 20px;
+  background-color: white;
+}
+
+.text-section {
+  margin-bottom: 20px;
+}
+
+.header-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.shop-now {
+  color: #107385;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* products-section */
+.products-container {
+  width: 100%;
+}
+
+.product-item {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.product-item img {
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(192, 191, 191);
+}
+
+/* gaming and audio section */
+
+.gaming-section,
+.audio-section {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.gaming-section img,
+.audio-section img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+/* footer section */
+
+.back-to-top {
+  background-color: #364759;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.back-to-top a {
+  color: white;
+  font-weight: bold;
+}
+
+.bottom-logo {
+  text-align: center;
+  padding: 3rem;
+  background-color: #222f3f;
+}
+
+.bottom-logo img {
+  width: 150px;
+}
