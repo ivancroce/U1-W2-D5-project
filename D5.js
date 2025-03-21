@@ -131,3 +131,12 @@ while (i < numericArray.length) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+/* for (let i = 0; i < charactersArray.length; i++) {
+  const character = charactersArray[i];
+
+  switch (character) {
+    case "a":
+      console.log.()
+  }
+} */
