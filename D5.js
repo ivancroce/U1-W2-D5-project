@@ -131,12 +131,80 @@ while (i < numericArray.length) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+const newArr = [];
 
-/* for (let i = 0; i < charactersArray.length; i++) {
+for (let i = 0; i < charactersArray.length; i++) {
   const character = charactersArray[i];
 
   switch (character) {
     case "a":
-      console.log.()
+      newArr.push(1);
+      break;
+    case "b":
+      newArr.push(2);
+      break;
+    case "c":
+      newArr.push(3);
+      break;
+    case "d":
+      newArr.push(4);
+      break;
+    case "e":
+      newArr.push(5);
+      break;
+    case "f":
+      newArr.push(6);
+      break;
+    case "g":
+      newArr.push(7);
+      break;
+    case "h":
+      newArr.push(8);
+      break;
+    case "i":
+      newArr.push(9);
+      break;
+    case "l":
+      newArr.push(10);
+      break;
+    case "m":
+      newArr.push(11);
+      break;
+    case "n":
+      newArr.push(12);
+      break;
+    case "o":
+      newArr.push(13);
+      break;
+    case "p":
+      newArr.push(14);
+      break;
+    case "q":
+      newArr.push(15);
+      break;
+    case "r":
+      newArr.push(16);
+      break;
+    case "s":
+      newArr.push(17);
+      break;
+    case "t":
+      newArr.push(18);
+      break;
+    case "u":
+      newArr.push(19);
+      break;
+    case "v":
+      newArr.push(20);
+      break;
+    case "z":
+      newArr.push(21);
+      break;
   }
-} */
+}
+
+console.log(newArr);
+
+// 🤯
+// ultimo esercizio solo perche' e' stato menzionato nell'ultimo meeting che si deve scrivere dalla dalla a alla z...
+// questo ha acceso la lampadina per la direzione giusta almeno...spero 😅
