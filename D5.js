@@ -60,7 +60,7 @@ const cars = [
 ];
 
 cars[0].licensePlate = "123-A-45678";
-cars[1].licensePlate = "231-B-321321";
+cars[1].licensePlate = "231-B-32132";
 cars[2].licensePlate = "321-C-87654";
 console.log(cars);
 
@@ -86,6 +86,8 @@ for (let i = 0; i < cars.length; i++) {
 
 console.log("After: ", cars);
 
+// to see properly the before part in the console, need to hide the for/after part
+
 /* ESERCIZIO 7
 Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
@@ -102,8 +104,9 @@ console.log(justTrims);
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 for (let i = 0; i < cars.length; i++) {
-  if (cars[i].color.startsWith(`b`)) console.log("Fizz");
-  else {
+  if (cars[i].color.startsWith(`b`)) {
+    console.log("Fizz");
+  } else {
     console.log("Buzz");
   }
 }
